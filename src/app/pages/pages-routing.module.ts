@@ -9,6 +9,7 @@ import { DetalleAsignaturaAlumnoComponent } from './detalle-asignatura-alumno/de
 import { DetalleAsignaturaDocente2Component } from './detalle-asignatura-docente2/detalle-asignatura-docente2.component';
 import { DetalleAsignaturaAlumno2Component } from './detalle-asignatura-alumno2/detalle-asignatura-alumno2.component';
 import { RegistroComponent } from './registro/registro.component';
+import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
 
 const routes: Routes = [
   { path: '', component: InicioDeSesionComponent },
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'detalle-asignatura-docente2', component: DetalleAsignaturaDocente2Component},
   { path: 'detalle-asignatura-alumno', component: DetalleAsignaturaAlumnoComponent },
   { path: 'detalle-asignatura-alumno2', component: DetalleAsignaturaAlumno2Component},
-  { path: 'registro', component: RegistroComponent}
+  { path: 'registro', component: RegistroComponent},
+  { path: 'cerrar-sesion', component: CerrarSesionComponent}
 ];
 
 @NgModule({

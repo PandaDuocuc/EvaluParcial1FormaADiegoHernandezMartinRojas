@@ -16,8 +16,8 @@ export class FooterComponent {
   }
 
   cerrarSesion() {
-    this.authService.logout();
-    this.router.navigate(['/inicio-de-sesion']);
+    this.authService.logout();  // Cerrar sesión
+    this.router.navigate(['/cerrar-sesion']);  // Redirigir a la página de cierre de sesión
   }
 
 }

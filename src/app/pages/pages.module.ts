@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { DetalleAsignaturaDocente2Component } from './detalle-asignatura-docente2/detalle-asignatura-docente2.component';
 import { DetalleAsignaturaAlumno2Component } from './detalle-asignatura-alumno2/detalle-asignatura-alumno2.component';
 import { RegistroComponent } from './registro/registro.component';
+import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { RegistroComponent } from './registro/registro.component';
     DetalleAsignaturaAlumno2Component,
     DetalleAsignaturaDocenteComponent,
     DetalleAsignaturaDocente2Component,
-    RegistroComponent
+    RegistroComponent,
+    CerrarSesionComponent
   ],
   imports: [
     CommonModule,
