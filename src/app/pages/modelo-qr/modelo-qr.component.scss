@@ -8,7 +8,7 @@ ion-content {
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-  padding-top: 10vh;
+  padding-top: 20vh;
 
   h2 {
     margin-bottom: 20px;
@@ -16,12 +16,6 @@ ion-content {
 
   qrcode {
     max-width: 80%;
-  }
-
-  .message {
-    margin-top: 20px;
-    font-weight: bold;
-    color: #4caf50;
   }
 
   ion-button {

@@ -27,8 +27,6 @@ export class DetalleAsignaturaDocente2Component {
 
   generarCodigoQR() {
     console.log('Generando código QR...');
-    this.router.navigate(['/modelo-qr', {
-      mensaje: 'Registrando asistencia para ' + this.nombreAsignatura
-    }]);
+    this.router.navigate(['/modelo-qr']);
   }
 }
