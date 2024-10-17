@@ -1,0 +1,10 @@
+<app-header [titulo] = "'Generar QR'"></app-header>
+
+<ion-content class="ion-padding">
+  <div class="qr-container">
+    <h2>Escanea el código QR</h2>
+    <qrcode [qrdata]="qrData"></qrcode>
+    <p class="message">{{ message }}</p>
+    <ion-button (click)="goBack()">Volver</ion-button>
+  </div>
+</ion-content>

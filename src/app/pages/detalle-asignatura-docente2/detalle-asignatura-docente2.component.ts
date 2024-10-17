@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router'; // Importa Router
 
 interface Clase {
   dia: string;
@@ -22,8 +23,12 @@ export class DetalleAsignaturaDocente2Component {
     'Experiencia de Aprendizaje 3 - Optimizando la ejecución de pruebas: Técnicas, seguridad y documentación para garantizar la calidad del software'
   ];
 
+  constructor(private router: Router) {}
+
   generarCodigoQR() {
-    // Aquí iría la lógica para generar el código QR
     console.log('Generando código QR...');
+    this.router.navigate(['/modelo-qr', {
+      mensaje: 'Registrando asistencia para ' + this.nombreAsignatura
+    }]);
   }
 }

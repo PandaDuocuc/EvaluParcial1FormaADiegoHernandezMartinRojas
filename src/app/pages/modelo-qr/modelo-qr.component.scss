@@ -1,0 +1,30 @@
+ion-content {
+  --background: transparent;
+}
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-top: 10vh;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  qrcode {
+    max-width: 80%;
+  }
+
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+
+  ion-button {
+    margin-top: 20px;
+  }
+}

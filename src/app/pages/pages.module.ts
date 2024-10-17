@@ -15,6 +15,8 @@ import { DetalleAsignaturaDocente2Component } from './detalle-asignatura-docente
 import { DetalleAsignaturaAlumno2Component } from './detalle-asignatura-alumno2/detalle-asignatura-alumno2.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
+import { QRCodeModule } from 'angularx-qrcode';
+import { ModeloQrComponent } from './modelo-qr/modelo-qr.component';
 
 
 @NgModule({
@@ -28,14 +30,16 @@ import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
     DetalleAsignaturaDocenteComponent,
     DetalleAsignaturaDocente2Component,
     RegistroComponent,
-    CerrarSesionComponent
+    CerrarSesionComponent,
+    ModeloQrComponent
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     SharedModule,
     IonicModule,
-    FormsModule
+    FormsModule,
+    QRCodeModule
 ]
 })
 export class PagesModule { }

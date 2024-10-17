@@ -10,6 +10,7 @@ import { DetalleAsignaturaDocente2Component } from './detalle-asignatura-docente
 import { DetalleAsignaturaAlumno2Component } from './detalle-asignatura-alumno2/detalle-asignatura-alumno2.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CerrarSesionComponent } from './cerrar-sesion/cerrar-sesion.component';
+import { ModeloQrComponent } from './modelo-qr/modelo-qr.component';
 
 const routes: Routes = [
   { path: '', component: InicioDeSesionComponent },
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'detalle-asignatura-alumno', component: DetalleAsignaturaAlumnoComponent },
   { path: 'detalle-asignatura-alumno2', component: DetalleAsignaturaAlumno2Component},
   { path: 'registro', component: RegistroComponent},
-  { path: 'cerrar-sesion', component: CerrarSesionComponent}
+  { path: 'cerrar-sesion', component: CerrarSesionComponent},
+  { path: 'modelo-qr', component: ModeloQrComponent}
 ];
 
 @NgModule({
